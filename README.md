@@ -76,5 +76,9 @@ in ORC using min & max for each stripe or skip over partitions
  - Read in parallel
  - Try to do as much as possible in-memory
 
+ **Schema Evolution**
+Query over different ORC file sets with different schema works without a glitch
 
+**TODO**:
+use TimeStamp type for accessTimestamp 
  
